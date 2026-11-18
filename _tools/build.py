@@ -174,6 +174,150 @@ def convert(chnum, text):
     body = body.replace('<table>', '<div class="tablewrap"><table>').replace('</table>', '</table></div>')
     return title, body, toc
 
+ALIAS={'extra-topicality':['extra-topical'],'effects topicality':['effects topical'],'rehighlighting':['rehighlight','rehighlighted'],
+ 'the scale':['Scale'],'dropped argument':['dropped','drops'],'top down':['top-down','from the top down','top'],'forensics':['forensic'],
+ 'directional uniqueness':['directional'],'terminal impact':['terminal'],'linear impact':['linear'],'algebraic analysis':['Algebraic Analysis']}
+DEFWORDS=re.compile(r"\b(is|are|means|was|refers|argues|happens|asks|describes|explains|has|have|gives|pits|uses|called|call)\b|:|—|, an? ")
+def plain(s): return html.unescape(re.sub(r'<[^>]+>','',s))
+def split_sents(t): return re.split(r"(?:(?<=[.!?])|(?<=[.!?][\"”]))\s+(?=[A-Z\"“\[])",t)
+def extract(n, page):
+    m=re.search(r'<h2 id="key-terms">.*?</h2>\s*<p>(.*?)</p>',page,re.S)
+    if not m: return [],[]
+    kt=[t.strip().rstrip('.') for t in plain(m.group(1)).split(',') if t.strip()]
+    start=m.end(); body=page[start:]
+    stop=re.search(r'<h2 id="check-questions"',body)
+    body=body[:stop.start()] if stop else body
+    heads=[(h.start(),h.group(1)) for h in re.finditer(r'<h[23] id="([^"]+)"',body)]
+    out=[];miss=[]
+    for t in kt:
+        names=[t]+ALIAS.get(t.lower(),[])
+        hit=None;bold=True
+        for nm in names:
+            pat=re.compile(r'<strong>((?:the )?'+re.escape(nm)+r'(?:s|es)?[.:]?)</strong>',re.I)
+            for pm in re.finditer(r'<(p|li|td)[^>]*>(.*?)</\1>',body,re.S):
+                if pat.search(pm.group(2)): hit=(pm,pat);break
+            if hit: break
+        if not hit:
+            for nm in names:
+                pat=re.compile(r'\b('+re.escape(nm)+r'(?:s|es)?)\b',re.I)
+                for pm in re.finditer(r'<(p|li)[^>]*>(.*?)</\1>',body,re.S):
+                    if pat.search(plain(pm.group(2))): hit=(pm,pat);bold=False;break
+                if hit: break
+        if not hit: miss.append(t); continue
+        pm,pat=hit
+        txt=pm.group(2)
+        txt=re.sub(r'<strong>(.*?)</strong>',lambda x:'[['+x.group(1)+']]',txt) if bold else txt
+        txt=plain(txt).replace('\n',' ')
+        sents=split_sents(txt)
+        key=(lambda x: re.search(r'\[\[(?:the )?'+'|'.join(re.escape(z) for z in names)+r'(?:s|es)?[.:]?\]\]',x,re.I)) if bold else (lambda x: pat.search(x))
+        i=next((k for k,x in enumerate(sents) if key(x)),0)
+        d=sents[i]
+        if len(d.split())<6 or not DEFWORDS.search(d):
+            if i+1<len(sents): d=d+' '+sents[i+1]
+            elif i>0: d=sents[i-1]+' '+d
+        sec=None
+        for p,h in heads:
+            if p<pm.start(): sec=h
+        out.append({'term':t,'ch':n,'sec':sec,'def':d,'bold':bold})
+    return out,miss
+
+
+# ---------- glossary ----------
+GLOSS_OVERRIDE = {
+ ('the scale', 4): "The picture this book uses for how a judge decides: each argument a side wins goes on its side of a balance, arguments that cancel come off both sides, and the heavier side wins. If the Scale is level or empty, the judge votes on presumption.",
+ ('four-step refutation', 4): "A four-part answer to an argument: say which argument you are answering, state your answer, support it, and explain what it means for the debate (\"They say... We say... Based on... That means...\").",
+ ('delivery', 5): "How you present an argument out loud. In a debate, your own delivery is the biggest source of noise you control: an argument the judge cannot flow does not count.",
+ ('the four moves', 21): "The four skills this book is organized around: build an argument, prove it with evidence, answer the other side, and weigh what you won against what you lost.",
+ ('affirmative flexibility', 16): "The affirmative's standard that it needs room to be creative, because the negative can read almost any argument against any plan while the affirmative is bound by the resolution. Unexpected plans are good for debate as long as they stay inside the resolution.",
+ ('negative', 1): "The side that argues the resolution should not be accepted. Other formats call the sides government and opposition, or pro and con.",
+ ('rebuttal', 1): "A later speech in which debaters may not make new arguments, except to answer something new from the speech just before.",
+ ('rehighlighting', 9): "Reading different words from an opponent's card to make the same paragraph say something else, often the opposite. A card that can be rehighlighted against you is worse than a weak card.",
+ ('pit of doom', 11): "A cross-examination question where one answer clearly gives you access to an argument you are likely to make. Unlike the fork, it needs only one answer to help you.",
+ ('terminal impact', 14): "An impact that ends in harm to people, such as lost lives, poverty or loss of rights, rather than a step along the way.",
+}
+GLOSS_EXTRA_ALIAS = {'flow': ['Flowing'], 'the scale': ['Scale']}
+
+def gloss_clean(d, term):
+    # a bold label at the start that is not the term ("The sides.") is dropped
+    m = re.match(r'^\[\[([^\]]+)\]\]\s*', d)
+    if m:
+        lab = m.group(1).rstrip('.:').lower()
+        lab = re.sub(r'^the ', '', lab)
+        t = re.sub(r'^the ', '', term.lower())
+        if not (lab.startswith(t) or t.startswith(lab)):
+            d = d[m.end():]
+        elif m.group(1).endswith(('.', ':')) and len(d[m.end():].split()) > 0 and d[m.end():][:1].isupper():
+            d = d[m.end():]
+    d = html.escape(d.strip(), quote=False)
+    d = re.sub(r'\[\[(.*?)\]\]', r'<strong>\1</strong>', d)
+    return d
+
+def build_glossary(built):
+    for k, v in GLOSS_EXTRA_ALIAS.items():
+        ALIAS.setdefault(k, []).extend(v)
+    entries = []
+    for n, title, fn, body, toc in built:
+        page = body
+        out, miss = extract(n, page)
+        for e in out:
+            e['fn'] = fn
+        entries += out
+    # overrides
+    for e in entries:
+        key = (e['term'].lower(), e['ch'])
+        if key in GLOSS_OVERRIDE:
+            e['def'] = GLOSS_OVERRIDE[key]; e['bold'] = True; e['override'] = True
+    have_bold = {e['term'].lower() for e in entries if e['bold']}
+    keep = [e for e in entries if e['bold'] or e['term'].lower() not in have_bold]
+    groups = {}
+    for e in keep:
+        groups.setdefault(e['term'].lower(), []).append(e)
+    def sortkey(t): return re.sub(r'^the ', '', t)
+    letters = {}
+    for t in sorted(groups, key=sortkey):
+        letters.setdefault(sortkey(t)[0].upper(), []).append(t)
+    parts = ['<article class="chapter glossary"><h1>Glossary</h1>',
+             '<p class="lede-small">Every key term in the book, defined in the words of the chapter that introduces it. Select a chapter link to read the term in context.</p>',
+             '<input type="search" id="gfilter" class="gfilter" placeholder="Filter terms" aria-label="Filter glossary terms">',
+             '<nav class="letters" aria-label="Jump to letter">' + ''.join(f'<a href="#letter-{L}">{L}</a>' for L in letters) + '</nav>']
+    for L, terms in letters.items():
+        parts.append(f'<section class="gletter" id="letter-{L}"><h2>{L}</h2><dl>')
+        for t in terms:
+            es = groups[t]
+            disp = es[0]['term']; disp = disp[0].upper() + disp[1:]
+            parts.append(f'<div class="gentry" id="term-{slug(t)}"><dt>{html.escape(disp)}</dt>')
+            for e in es:
+                d = e['def'] if e.get('override') else gloss_clean(e['def'], e['term'])
+                href = e['fn'] + (('#' + e['sec']) if e.get('sec') else '')
+                parts.append(f'<dd>{d} <a class="gref" href="{href}">Chapter {e["ch"]}</a></dd>')
+            parts.append('</div>')
+        parts.append('</dl></section>')
+    parts.append('</article>')
+    return '\n'.join(parts), keep
+
+# ---------- search index ----------
+def search_records(built, gloss):
+    recs = []
+    for n, title, fn, body, toc in built:
+        b = re.sub(r'<section class="quiz".*?</section>', '', body, flags=re.S)
+        b = re.sub(r'<figure.*?</figure>', lambda m: ' ' + re.sub(r'<[^>]+>', ' ', m.group(0)) + ' ', b, flags=re.S)
+        heads = list(re.finditer(r'<(h[23]) id="([^"]+)">(.*?)</\1>', b))
+        cuts = [(0, '', 'Introduction')] + [(h.start(), h.group(2), re.sub(r'<[^>]+>', '', h.group(3))) for h in heads]
+        for i, (pos, sid, stitle) in enumerate(cuts):
+            end = cuts[i + 1][0] if i + 1 < len(cuts) else len(b)
+            seg = re.sub(r'</?(strong|em|b|i|a|span|mark|sup|sub|code)\b[^>]*>', '', b[pos:end])
+            txt = html.unescape(re.sub(r'<[^>]+>', ' ', seg))
+            txt = re.sub(r'\s+', ' ', txt).strip()
+            if stitle and txt.startswith(stitle):
+                txt = txt[len(stitle):].strip()
+            if sid in ('check-questions', 'key-terms') or len(txt) < 20:
+                continue
+            recs.append({'c': n, 't': re.sub(r'^Chapter \d+:\s*', '', title), 's': stitle, 'u': fn + ('#' + sid if sid else ''), 'x': txt})
+    for e in gloss:
+        d = e['def'] if e.get('override') else re.sub(r'<[^>]+>', '', gloss_clean(e['def'], e['term']))
+        recs.append({'c': 0, 't': 'Glossary', 's': e['term'], 'u': 'glossary.html#term-' + slug(e['term'].lower()), 'x': html.unescape(d)})
+    return recs
+
 # ---------- page shell ----------
 CSS_LINK = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css">'
 
@@ -191,6 +335,10 @@ def shell(page_title, nav_html, main_html, current=None):
 <header class="top">
   <button class="navtoggle" type="button" aria-controls="sidebar" aria-expanded="false">Contents</button>
   <a class="booktitle" href="index.html">{BOOK}</a>
+  <div class="search" role="search">
+    <input type="search" id="q" placeholder="Search the book" aria-label="Search the book" autocomplete="off">
+    <div id="results" class="results" hidden></div>
+  </div>
 </header>
 <div class="layout">
 <nav id="sidebar" class="sidebar" aria-label="Chapters">
@@ -211,6 +359,8 @@ def sidebar(chs, current):
         cls = ' class="current" aria-current="page"' if n == current else ''
         items.append(f'<li><a href="{fn}"{cls}><span class="n">{n}</span> {html.escape(short)}</a></li>')
     items.append('</ol>')
+    cls = ' class="current" aria-current="page"' if current == 'glossary' else ''
+    items.append(f'<ul class="chlist extra"><li><a href="glossary.html"{cls}><span class="n">&#9670;</span> Glossary</a></li></ul>')
     return '\n'.join(items)
 
 def main():
@@ -244,6 +394,13 @@ def main():
         main_html = f'<article class="chapter"><h1>{html.escape(title)}</h1>\n{onpage}\n{body}\n</article>\n' + '\n'.join(pager)
         with open(os.path.join(OUT, fn), 'w', encoding='utf-8') as f:
             f.write(shell(f'{title} | {BOOK}', sidebar(meta, n), main_html))
+    # glossary
+    gl_html, gl_entries = build_glossary(built)
+    with open(os.path.join(OUT, 'glossary.html'), 'w', encoding='utf-8') as f:
+        f.write(shell(f'Glossary | {BOOK}', sidebar(meta, 'glossary'), gl_html))
+    # search index
+    with open(os.path.join(OUT, 'search-index.json'), 'w', encoding='utf-8') as f:
+        json.dump(search_records(built, gl_entries), f, ensure_ascii=False, separators=(',', ':'))
     # index
     rows = '\n'.join(f'<li><a href="{fn}"><span class="n">{n}</span><span class="t">{html.escape(re.sub(r"^Chapter \d+:\s*", "", t))}</span></a></li>' for n, t, fn in meta)
     index_main = f'''<section class="cover">
@@ -253,13 +410,14 @@ def main():
 <p class="edition">Paul Villa, Diablo Valley College · {EDITION}</p>
 <p><a class="start" href="{meta[0][2]}">Start reading</a></p>
 </section>
-<section class="toc"><h2>Chapters</h2><ol class="tocgrid">{rows}</ol></section>'''
+<section class="toc"><h2>Chapters</h2><ol class="tocgrid">{rows}</ol><p class="glink"><a href="glossary.html">Glossary of key terms</a></p></section>'''
     with open(os.path.join(OUT, 'index.html'), 'w', encoding='utf-8') as f:
         f.write(shell(BOOK, sidebar(meta, None), index_main))
     here = os.path.dirname(os.path.abspath(__file__))
     for asset in ('style.css', 'site.js'):
         shutil.copy(os.path.join(here, asset), os.path.join(OUT, asset))
     open(os.path.join(OUT, '.nojekyll'), 'w').close()
+    print('glossary entries:', len(gl_entries))
     report = {n: {'title': t, 'figures': body.count('<figure'), 'quiz': body.count('class="q"')} for n, t, _, body, _ in built}
     print(json.dumps(report, indent=0))
 

@@ -129,3 +129,34 @@ th { background: var(--green-soft); font-weight: 700; }
 /* mapped examples (a disadvantage laid out part by part, a syllogism) */
 .panel { font-family: var(--sans); font-size: .97rem; line-height: 1.55; background: var(--panel); border-left: 4px solid var(--green); border-radius: 0 6px 6px 0; padding: .75rem 1rem; margin: .3rem 0 1.1rem; }
 .panel strong { color: var(--ink); }
+
+/* ---------- search ---------- */
+.search { position: relative; margin-left: auto; width: min(22rem, 45vw); }
+.search input { width: 100%; box-sizing: border-box; font: .92rem var(--sans); padding: .38rem .7rem; border-radius: 4px; border: 1px solid rgba(255,255,255,.45); background: rgba(255,255,255,.12); color: #fff; }
+.search input::placeholder { color: rgba(255,255,255,.75); }
+.search input:focus { outline: 2px solid #fff; outline-offset: 1px; background: #fff; color: var(--ink); }
+.search input:focus::placeholder { color: var(--muted); }
+.results { position: absolute; right: 0; top: calc(100% + .4rem); width: min(32rem, 92vw); max-height: 70vh; overflow-y: auto; background: #fff; color: var(--ink); border: 1px solid var(--rule); border-radius: 6px; box-shadow: 0 8px 24px rgba(0,0,0,.15); padding: .35rem; z-index: 20; }
+.results a { display: block; padding: .55rem .7rem; border-radius: 4px; text-decoration: none; color: var(--ink); }
+.results a:hover, .results a.active { background: var(--green-soft); }
+.results .where { display: block; font-size: .78rem; font-weight: 600; color: var(--green); letter-spacing: .01em; }
+.results .snip { display: block; font-size: .86rem; line-height: 1.4; color: #444; margin-top: .15rem; }
+.results mark { background: #fff1a8; color: inherit; padding: 0 1px; }
+.results .none { padding: .6rem .7rem; font-size: .88rem; color: var(--muted); }
+@media (max-width: 760px) { .booktitle { display: none; } .search { width: auto; flex: 1; } }
+
+/* ---------- glossary ---------- */
+.lede-small { color: var(--muted); font-family: var(--sans); }
+.gfilter { width: 100%; box-sizing: border-box; font: 1rem var(--sans); padding: .55rem .8rem; border: 1px solid var(--rule); border-radius: 6px; margin: .5rem 0 1rem; }
+.letters { display: flex; flex-wrap: wrap; gap: .25rem; font-family: var(--sans); margin-bottom: 1.5rem; }
+.letters a { display: inline-block; min-width: 1.8rem; text-align: center; padding: .2rem .3rem; border-radius: 4px; background: var(--green-soft); color: var(--green); font-weight: 700; text-decoration: none; }
+.gletter h2 { border-bottom: 1px solid var(--rule); padding-bottom: .2rem; }
+.gletter dl { margin: 0; }
+.gentry { padding: .55rem 0; border-bottom: 1px dashed var(--rule); scroll-margin-top: 4.5rem; }
+.gentry dt { font-family: var(--sans); font-weight: 700; color: var(--ink); }
+.gentry dd { margin: .2rem 0 0 0; line-height: 1.5; }
+.gentry dd + dd { margin-top: .4rem; }
+.gref { font-family: var(--sans); font-size: .8rem; font-weight: 600; white-space: nowrap; color: var(--green); }
+.gentry:target { background: #fffbe0; }
+.glink { margin-top: 1.25rem; font-family: var(--sans); font-weight: 600; }
+.chlist.extra { margin-top: .75rem; border-top: 1px solid var(--rule); padding-top: .5rem; }
