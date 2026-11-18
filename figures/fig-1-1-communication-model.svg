@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs>
+<style type="text/css"><![CDATA[
+]]></style>
+<marker id="arrow1" markerWidth="18" markerHeight="18" refX="17.5" refY="9.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L18,9.0 L0,18 z" fill="#1A1A1A"/></marker>
+<marker id="arrow2" markerWidth="18" markerHeight="18" refX="17.5" refY="9.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L18,9.0 L0,18 z" fill="#1A1A1A"/></marker>
+<marker id="arrow3" markerWidth="16" markerHeight="16" refX="15.5" refY="8.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L16,8.0 L0,16 z" fill="#8A8A8A"/></marker>
+<marker id="arrow4" markerWidth="20" markerHeight="20" refX="19.5" refY="10.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L20,10.0 L0,20 z" fill="#1F5135"/></marker>
+</defs>
+<rect x="0.00" y="0.00" width="1920.00" height="1080.00" fill="#FFFFFF"/>
+<rect x="50.00" y="410.00" width="400.00" height="230.00" rx="18.00" fill="#E3EDE6" stroke="#1F5135" stroke-width="3" stroke-linejoin="round"/>
+<text x="250.00" y="524.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Debater</text>
+<text x="250.00" y="564.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="normal" fill="#666666" text-anchor="middle">sender: encodes</text>
+<rect x="1470.00" y="410.00" width="400.00" height="230.00" rx="18.00" fill="#E3EDE6" stroke="#1F5135" stroke-width="3" stroke-linejoin="round"/>
+<text x="1670.00" y="518.50" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Judge</text>
+<text x="1670.00" y="569.50" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="normal" fill="#666666" text-anchor="middle">receiver: decodes</text>
+<rect x="540.00" y="430.00" width="840.00" height="190.00" rx="95.00" fill="#E3EDE6" stroke="#1F5135" stroke-width="3.5" stroke-linejoin="round"/>
+<text x="960.00" y="516.50" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Channel: a timed speech</text>
+<text x="960.00" y="565.50" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="normal" fill="#666666" text-anchor="middle">Message: the arguments</text>
+<path d="M450.00,525.00 L537.30,525.00" fill="none" stroke="#1A1A1A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow1)"/>
+<path d="M1380.00,525.00 L1467.30,525.00" fill="none" stroke="#1A1A1A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow2)"/>
+<ellipse cx="960.00" cy="200.00" rx="288.00" ry="90.00" fill="#C9C9C9"/>
+<ellipse cx="780.00" cy="200.00" rx="201.60" ry="80.00" fill="#C9C9C9"/>
+<ellipse cx="1140.00" cy="200.00" rx="201.60" ry="80.00" fill="#C9C9C9"/>
+<ellipse cx="859.20" cy="135.00" rx="187.20" ry="75.00" fill="#C9C9C9"/>
+<ellipse cx="1046.40" cy="125.00" rx="216.00" ry="85.00" fill="#C9C9C9"/>
+<ellipse cx="1176.00" cy="165.00" rx="144.00" ry="60.00" fill="#C9C9C9"/>
+<ellipse cx="729.60" cy="170.00" rx="144.00" ry="60.00" fill="#C9C9C9"/>
+<text x="960.00" y="172.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Noise</text>
+<text x="960.00" y="210.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="normal" fill="#666666" text-anchor="middle">physical · psychological · semantic</text>
+<path d="M960.00,300.00 L960.00,427.60" fill="none" stroke="#8A8A8A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 7" marker-end="url(#arrow3)"/>
+<path d="M1670.00,640.00 C1670.00,980 250.00,980 250.00,648.00" fill="none" stroke="#1F5135" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow4)"/>
+<text x="960.00" y="1019.50" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="normal" fill="#1F5135" text-anchor="middle">Feedback: the opponent's answers, the judge's reactions, the decision</text>
+</svg>

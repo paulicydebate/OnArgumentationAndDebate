@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs>
+<style type="text/css"><![CDATA[
+]]></style>
+<marker id="arrow1" markerWidth="14" markerHeight="14" refX="13.5" refY="7.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L14,7.0 L0,14 z" fill="#8A8A8A"/></marker>
+<marker id="arrow2" markerWidth="14" markerHeight="14" refX="13.5" refY="7.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L14,7.0 L0,14 z" fill="#8A8A8A"/></marker>
+<marker id="arrow3" markerWidth="14" markerHeight="14" refX="13.5" refY="7.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L14,7.0 L0,14 z" fill="#8A8A8A"/></marker>
+<marker id="arrow4" markerWidth="14" markerHeight="14" refX="13.5" refY="7.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L14,7.0 L0,14 z" fill="#8A8A8A"/></marker>
+<marker id="arrow5" markerWidth="14" markerHeight="14" refX="13.5" refY="7.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L14,7.0 L0,14 z" fill="#8A8A8A"/></marker>
+<marker id="arrow6" markerWidth="14" markerHeight="14" refX="13.5" refY="7.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L14,7.0 L0,14 z" fill="#8A8A8A"/></marker>
+<marker id="arrow7" markerWidth="14" markerHeight="14" refX="13.5" refY="7.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L14,7.0 L0,14 z" fill="#8A8A8A"/></marker>
+</defs>
+<rect x="0.00" y="0.00" width="1920.00" height="1080.00" fill="#FFFFFF"/>
+<rect x="36.00" y="36.00" width="450.00" height="96.00" rx="12.00" fill="#1F5135"/>
+<text x="261.00" y="103.50" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle">Aff constructive</text>
+<rect x="502.00" y="36.00" width="450.00" height="96.00" rx="12.00" fill="#1F5135"/>
+<text x="727.00" y="98.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle">Neg constructive</text>
+<rect x="968.00" y="36.00" width="450.00" height="96.00" rx="12.00" fill="#1F5135"/>
+<text x="1193.00" y="103.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle">Aff rebuttal</text>
+<rect x="1434.00" y="36.00" width="450.00" height="96.00" rx="12.00" fill="#1F5135"/>
+<text x="1659.00" y="97.50" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle">Neg rebuttal</text>
+<rect x="36.00" y="156.00" width="450.00" height="280.00" rx="14.00" fill="#FFFFFF" stroke="#C8C8C8" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="261.00" y="309.50" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="normal" fill="#1A1A1A" text-anchor="middle">1. Cost ↓ for students</text>
+<path d="M486.00,296.00 L499.90,296.00" fill="none" stroke="#8A8A8A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow1)"/>
+<rect x="502.00" y="156.00" width="450.00" height="280.00" rx="14.00" fill="#FFFFFF" stroke="#C8C8C8" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="727.00" y="310.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="normal" fill="#1A1A1A" text-anchor="middle">A: Credits don't transfer</text>
+<path d="M952.00,296.00 L965.90,296.00" fill="none" stroke="#8A8A8A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow2)"/>
+<rect x="968.00" y="156.00" width="450.00" height="280.00" rx="14.00" fill="#FFFFFF" stroke="#C8C8C8" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="1193.00" y="306.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="normal" fill="#1A1A1A" text-anchor="middle">Ext: transfer guarantee</text>
+<path d="M1418.00,296.00 L1431.90,296.00" fill="none" stroke="#8A8A8A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow3)"/>
+<rect x="1434.00" y="156.00" width="450.00" height="280.00" rx="14.00" fill="#FFFFFF" stroke="#C8C8C8" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="1659.00" y="305.50" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="normal" fill="#1A1A1A" text-anchor="middle">Weigh: debt vs. delay</text>
+<rect x="36.00" y="460.00" width="450.00" height="280.00" rx="14.00" fill="#FFFFFF" stroke="#C8C8C8" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="261.00" y="612.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="normal" fill="#1A1A1A" text-anchor="middle">2. Stress ↓</text>
+<path d="M486.00,600.00 L499.90,600.00" fill="none" stroke="#8A8A8A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow4)"/>
+<rect x="502.00" y="460.00" width="450.00" height="280.00" rx="14.00" fill="#FFFFFF" stroke="#C8C8C8" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="727.00" y="609.50" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="normal" fill="#1A1A1A" text-anchor="middle">A: Stress study is 1 school</text>
+<path d="M952.00,600.00 L965.90,600.00" fill="none" stroke="#8A8A8A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow5)"/>
+<rect x="968.00" y="460.00" width="450.00" height="280.00" rx="14.00" fill="#FFFFFF" stroke="#C8C8C8" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="1193.00" y="613.50" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="normal" fill="#1A1A1A" text-anchor="middle">Ext: 3 studies</text>
+<rect x="36.00" y="764.00" width="450.00" height="280.00" rx="14.00" fill="#FFFFFF" stroke="#C8C8C8" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="261.00" y="913.50" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="normal" fill="#1A1A1A" text-anchor="middle">3. Explore majors</text>
+<rect x="502.00" y="764.00" width="450.00" height="280.00" rx="14.00" fill="#FFFFFF" stroke="#C0392B" stroke-width="3" stroke-linejoin="round" stroke-dasharray="10 8"/>
+<text x="727.00" y="917.50" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="italic" fill="#C0392B" text-anchor="middle">no answer here</text>
+<rect x="968.00" y="764.00" width="450.00" height="280.00" rx="14.00" fill="#FFFFFF" stroke="#E8C8C8" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="1193.00" y="917.50" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="40" font-weight="700" font-style="normal" fill="#C0392B" text-anchor="middle">DROPPED: extend 3</text>
+<path d="M486.00,904.00 L499.90,904.00" fill="none" stroke="#8A8A8A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow6)"/>
+<path d="M952.00,904.00 L965.90,904.00" fill="none" stroke="#8A8A8A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow7)"/>
+</svg>

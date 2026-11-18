@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs>
+<style type="text/css"><![CDATA[
+]]></style>
+<marker id="arrow1" markerWidth="20" markerHeight="20" refX="19.5" refY="10.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L20,10.0 L0,20 z" fill="#1A1A1A"/></marker>
+<marker id="arrow2" markerWidth="16" markerHeight="16" refX="15.5" refY="8.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L16,8.0 L0,16 z" fill="#1A1A1A"/></marker>
+</defs>
+<rect x="0.00" y="0.00" width="1920.00" height="1080.00" fill="#FFFFFF"/>
+<rect x="60.00" y="300.00" width="360.00" height="150.00" rx="18.00" fill="#E3EDE6" stroke="#1F5135" stroke-width="3" stroke-linejoin="round"/>
+<text x="240.00" y="393.50" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Grounds</text>
+<rect x="1500.00" y="300.00" width="360.00" height="150.00" rx="18.00" fill="#E3EDE6" stroke="#1F5135" stroke-width="3" stroke-linejoin="round"/>
+<text x="1680.00" y="394.50" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Claim</text>
+<path d="M420.00,375.00 L1497.00,375.00" fill="none" stroke="#1A1A1A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow1)"/>
+<rect x="790.00" y="50.00" width="340.00" height="130.00" rx="18.00" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="3" stroke-linejoin="round"/>
+<text x="960.00" y="130.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Qualifier</text>
+<line x1="960.00" y1="180.00" x2="960.00" y2="371.00" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 7"/>
+<line x1="960.00" y1="379.00" x2="960.00" y2="530.00" stroke="#1A1A1A" stroke-width="3.5" stroke-linecap="round"/>
+<rect x="780.00" y="530.00" width="360.00" height="150.00" rx="18.00" fill="#E3EDE6" stroke="#1F5135" stroke-width="3" stroke-linejoin="round"/>
+<text x="960.00" y="622.50" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Warrant</text>
+<text x="928.00" y="466.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="italic" fill="#666666" text-anchor="end">since</text>
+<path d="M960.00,680.00 L960.00,797.60" fill="none" stroke="#1A1A1A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow2)"/>
+<rect x="780.00" y="800.00" width="360.00" height="150.00" rx="18.00" fill="#E3EDE6" stroke="#1F5135" stroke-width="3" stroke-linejoin="round"/>
+<text x="960.00" y="889.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Backing</text>
+<text x="928.00" y="753.50" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="italic" fill="#666666" text-anchor="end">because</text>
+<line x1="1680.00" y1="450.00" x2="1680.00" y2="620.00" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 7"/>
+<rect x="1500.00" y="620.00" width="360.00" height="150.00" rx="18.00" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="3" stroke-linejoin="round"/>
+<text x="1680.00" y="714.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Rebuttal</text>
+<text x="1712.00" y="548.50" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="italic" fill="#666666" text-anchor="start">unless</text>
+</svg>

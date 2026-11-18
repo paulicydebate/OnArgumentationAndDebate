@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs>
+<style type="text/css"><![CDATA[
+]]></style>
+
+</defs>
+<rect x="0.00" y="0.00" width="1920.00" height="1080.00" fill="#FFFFFF"/>
+<text x="960.00" y="72.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Shared impacts cancel; what is left tips the Scale</text>
+<polygon points="960.00,952.00 1100.00,1048.00 820.00,1048.00" fill="#1F5135" stroke="#1F5135" stroke-width="1" stroke-linejoin="round"/>
+<rect x="949.00" y="360.00" width="22.00" height="592.00" rx="2.00" fill="#1A1A1A"/>
+<line x1="408.51" y1="457.24" x2="1511.49" y2="262.76" stroke="#1A1A1A" stroke-width="16" stroke-linecap="round"/>
+<circle cx="960.00" cy="360.00" r="12.00" fill="#1A1A1A"/>
+<line x1="408.51" y1="457.24" x2="408.51" y2="707.24" stroke="#1A1A1A" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="1511.49" y1="262.76" x2="1511.49" y2="512.76" stroke="#1A1A1A" stroke-width="3.5" stroke-linecap="round"/>
+<ellipse cx="408.51" cy="707.24" rx="270.00" ry="22.40" fill="#E8E8E8" stroke="#7A7A7A" stroke-width="2.5"/>
+<path d="M138.51,707.24 Q408.51,787.24 678.51,707.24 Q408.51,721.64 138.51,707.24 Z" fill="#E8E8E8" stroke="#7A7A7A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="1511.49" cy="512.76" rx="190.00" ry="22.40" fill="#E8E8E8" stroke="#7A7A7A" stroke-width="2.5"/>
+<path d="M1321.49,512.76 Q1511.49,592.76 1701.49,512.76 Q1511.49,527.16 1321.49,512.76 Z" fill="#E8E8E8" stroke="#7A7A7A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="172.51,553.24 193.51,523.24 341.51,523.24 320.51,553.24" fill="#F4F4F4" stroke="#1A1A1A" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="320.51,553.24 341.51,523.24 341.51,671.24 320.51,701.24" fill="#D0D0D0" stroke="#1A1A1A" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="172.51,553.24 320.51,553.24 320.51,701.24 172.51,701.24" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="246.51" y="640.24" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">shared</text>
+<line x1="196.19" y1="576.92" x2="296.83" y2="677.56" stroke="#C0392B" stroke-width="5" stroke-linecap="round"/>
+<line x1="296.83" y1="576.92" x2="196.19" y2="677.56" stroke="#C0392B" stroke-width="5" stroke-linecap="round"/>
+<polygon points="334.51,553.24 355.51,523.24 503.51,523.24 482.51,553.24" fill="#2E6A46" stroke="#1A1A1A" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="482.51,553.24 503.51,523.24 503.51,671.24 482.51,701.24" fill="#163D28" stroke="#1A1A1A" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="334.51,553.24 482.51,553.24 482.51,701.24 334.51,701.24" fill="#1F5135" stroke="#1A1A1A" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="408.51" y="637.24" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle">impact</text>
+<polygon points="496.51,553.24 517.51,523.24 665.51,523.24 644.51,553.24" fill="#2E6A46" stroke="#1A1A1A" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="644.51,553.24 665.51,523.24 665.51,671.24 644.51,701.24" fill="#163D28" stroke="#1A1A1A" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="496.51,553.24 644.51,553.24 644.51,701.24 496.51,701.24" fill="#1F5135" stroke="#1A1A1A" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="570.51" y="637.24" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle">impact</text>
+<polygon points="1356.49,358.76 1377.49,328.76 1525.49,328.76 1504.49,358.76" fill="#F4F4F4" stroke="#1A1A1A" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1504.49,358.76 1525.49,328.76 1525.49,476.76 1504.49,506.76" fill="#D0D0D0" stroke="#1A1A1A" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1356.49,358.76 1504.49,358.76 1504.49,506.76 1356.49,506.76" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="1430.49" y="445.76" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">shared</text>
+<line x1="1380.17" y1="382.44" x2="1480.81" y2="483.08" stroke="#C0392B" stroke-width="5" stroke-linecap="round"/>
+<line x1="1480.81" y1="382.44" x2="1380.17" y2="483.08" stroke="#C0392B" stroke-width="5" stroke-linecap="round"/>
+<polygon points="1518.49,358.76 1539.49,328.76 1687.49,328.76 1666.49,358.76" fill="#2E6A46" stroke="#1A1A1A" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1666.49,358.76 1687.49,328.76 1687.49,476.76 1666.49,506.76" fill="#163D28" stroke="#1A1A1A" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1518.49,358.76 1666.49,358.76 1666.49,506.76 1518.49,506.76" fill="#1F5135" stroke="#1A1A1A" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="1592.49" y="442.76" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle">impact</text>
+<text x="408.51" y="828.74" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Affirmative</text>
+<text x="1511.49" y="630.76" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Negative</text>
+</svg>

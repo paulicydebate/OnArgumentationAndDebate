@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs>
+<style type="text/css"><![CDATA[
+]]></style>
+<marker id="arrow1" markerWidth="14" markerHeight="14" refX="13.5" refY="7.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L14,7.0 L0,14 z" fill="#1A1A1A"/></marker>
+<marker id="arrow2" markerWidth="14" markerHeight="14" refX="13.5" refY="7.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L14,7.0 L0,14 z" fill="#1A1A1A"/></marker>
+<marker id="arrow3" markerWidth="14" markerHeight="14" refX="13.5" refY="7.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L14,7.0 L0,14 z" fill="#1A1A1A"/></marker>
+<marker id="arrow4" markerWidth="16" markerHeight="16" refX="15.5" refY="8.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L16,8.0 L0,16 z" fill="#1A1A1A"/></marker>
+<marker id="arrow5" markerWidth="16" markerHeight="16" refX="15.5" refY="8.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L16,8.0 L0,16 z" fill="#1A1A1A"/></marker>
+<marker id="arrow6" markerWidth="16" markerHeight="16" refX="15.5" refY="8.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L16,8.0 L0,16 z" fill="#1A1A1A"/></marker>
+<marker id="arrow7" markerWidth="16" markerHeight="16" refX="15.5" refY="8.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L16,8.0 L0,16 z" fill="#1F5135"/></marker>
+</defs>
+<rect x="0.00" y="0.00" width="1920.00" height="1080.00" fill="#FFFFFF"/>
+<line x1="500.00" y1="40.00" x2="500.00" y2="1040.00" stroke="#B0B0B0" stroke-width="2.5" stroke-linecap="round"/>
+<text x="252.00" y="103.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="56" font-weight="700" font-style="normal" fill="#1F5135" text-anchor="middle">Contention Model</text>
+<text x="252.00" y="136.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="normal" fill="#1F5135" text-anchor="middle">(fact and value)</text>
+<rect x="22.00" y="175.00" width="460.00" height="175.00" rx="18.00" fill="#E3EDE6" stroke="#1F5135" stroke-width="3" stroke-linejoin="round"/>
+<text x="252.00" y="282.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Claim</text>
+<path d="M252.00,350.00 L252.00,382.90" fill="none" stroke="#1A1A1A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow1)"/>
+<rect x="22.00" y="385.00" width="460.00" height="175.00" rx="18.00" fill="#E3EDE6" stroke="#1F5135" stroke-width="3" stroke-linejoin="round"/>
+<text x="252.00" y="490.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Warrant</text>
+<path d="M252.00,560.00 L252.00,592.90" fill="none" stroke="#1A1A1A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow2)"/>
+<rect x="22.00" y="595.00" width="460.00" height="175.00" rx="18.00" fill="#E3EDE6" stroke="#1F5135" stroke-width="3" stroke-linejoin="round"/>
+<text x="252.00" y="697.50" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Implication</text>
+<path d="M252.00,770.00 L252.00,802.90" fill="none" stroke="#1A1A1A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow3)"/>
+<rect x="22.00" y="805.00" width="460.00" height="175.00" rx="18.00" fill="#E3EDE6" stroke="#1F5135" stroke-width="3" stroke-linejoin="round" stroke-dasharray="8 7"/>
+<text x="252.00" y="860.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Tie-back to the</text>
+<text x="252.00" y="912.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">criterion</text>
+<text x="252.00" y="956.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="normal" fill="#666666" text-anchor="middle">(value only)</text>
+<text x="1210.00" y="90.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="56" font-weight="700" font-style="normal" fill="#1F5135" text-anchor="middle">Uniqueness Model (policy)</text>
+<rect x="520.00" y="190.00" width="323.00" height="260.00" rx="18.00" fill="#E3EDE6" stroke="#1F5135" stroke-width="3" stroke-linejoin="round"/>
+<text x="681.50" y="305.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Uniqueness</text>
+<text x="681.50" y="356.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="normal" fill="#666666" text-anchor="middle">the world now</text>
+<path d="M843.00,320.00 L864.60,320.00" fill="none" stroke="#1A1A1A" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow4)"/>
+<rect x="867.00" y="190.00" width="323.00" height="260.00" rx="18.00" fill="#E3EDE6" stroke="#1F5135" stroke-width="3" stroke-linejoin="round"/>
+<text x="1028.50" y="290.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Link</text>
+<text x="1028.50" y="340.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="normal" fill="#666666" text-anchor="middle">what the plan</text>
+<text x="1028.50" y="384.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="normal" fill="#666666" text-anchor="middle">does</text>
+<path d="M1190.00,320.00 L1211.60,320.00" fill="none" stroke="#1A1A1A" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow5)"/>
+<rect x="1214.00" y="190.00" width="323.00" height="260.00" rx="18.00" fill="#E3EDE6" stroke="#1F5135" stroke-width="3" stroke-linejoin="round"/>
+<text x="1375.50" y="278.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Internal</text>
+<text x="1375.50" y="332.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">link</text>
+<text x="1375.50" y="388.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="normal" fill="#666666" text-anchor="middle">what changes</text>
+<path d="M1537.00,320.00 L1558.60,320.00" fill="none" stroke="#1A1A1A" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow6)"/>
+<rect x="1561.00" y="190.00" width="323.00" height="260.00" rx="18.00" fill="#E3EDE6" stroke="#1F5135" stroke-width="3" stroke-linejoin="round"/>
+<text x="1722.50" y="290.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Impact</text>
+<text x="1722.50" y="340.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="normal" fill="#666666" text-anchor="middle">why it matters to</text>
+<text x="1722.50" y="384.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="normal" fill="#666666" text-anchor="middle">people</text>
+<path d="M520.00,520.00 L1881.60,520.00" fill="none" stroke="#1F5135" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow7)"/>
+<text x="1202.00" y="578.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="38" font-weight="400" font-style="normal" fill="#1F5135" text-anchor="middle">status quo → world of the plan</text>
+</svg>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs>
+<style type="text/css"><![CDATA[
+]]></style>
+<marker id="arrow1" markerWidth="16" markerHeight="16" refX="15.5" refY="8.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L16,8.0 L0,16 z" fill="#1A1A1A"/></marker>
+<marker id="arrow2" markerWidth="16" markerHeight="16" refX="15.5" refY="8.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L16,8.0 L0,16 z" fill="#1A1A1A"/></marker>
+<marker id="arrow3" markerWidth="16" markerHeight="16" refX="15.5" refY="8.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L16,8.0 L0,16 z" fill="#1A1A1A"/></marker>
+<marker id="arrow4" markerWidth="16" markerHeight="16" refX="15.5" refY="8.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L16,8.0 L0,16 z" fill="#1A1A1A"/></marker>
+<marker id="arrow5" markerWidth="16" markerHeight="16" refX="15.5" refY="8.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L16,8.0 L0,16 z" fill="#1A1A1A"/></marker>
+<marker id="arrow6" markerWidth="16" markerHeight="16" refX="15.5" refY="8.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L16,8.0 L0,16 z" fill="#1A1A1A"/></marker>
+</defs>
+<rect x="0.00" y="0.00" width="1920.00" height="1080.00" fill="#FFFFFF"/>
+<text x="500.00" y="84.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="56" font-weight="700" font-style="normal" fill="#1F5135" text-anchor="middle">Advantage</text>
+<text x="1420.00" y="85.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="56" font-weight="700" font-style="normal" fill="#1F5135" text-anchor="middle">Disadvantage</text>
+<rect x="80.00" y="120.00" width="820.00" height="190.00" rx="18.00" fill="#E3EDE6" stroke="#1F5135" stroke-width="3" stroke-linejoin="round"/>
+<text x="490.00" y="230.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Uniqueness: bad now</text>
+<path d="M490.00,310.00 L490.00,329.60" fill="none" stroke="#1A1A1A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow1)"/>
+<rect x="80.00" y="332.00" width="820.00" height="190.00" rx="18.00" fill="#1F5135" stroke="#1F5135" stroke-width="3" stroke-linejoin="round"/>
+<text x="490.00" y="442.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle">Link: the plan</text>
+<path d="M490.00,522.00 L490.00,541.60" fill="none" stroke="#1A1A1A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow2)"/>
+<rect x="80.00" y="544.00" width="820.00" height="190.00" rx="18.00" fill="#E3EDE6" stroke="#1F5135" stroke-width="3" stroke-linejoin="round"/>
+<text x="490.00" y="653.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Internal link: things improve</text>
+<path d="M490.00,734.00 L490.00,753.60" fill="none" stroke="#1A1A1A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow3)"/>
+<rect x="80.00" y="756.00" width="820.00" height="190.00" rx="18.00" fill="#E3EDE6" stroke="#1F5135" stroke-width="3" stroke-linejoin="round"/>
+<text x="490.00" y="865.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Impact: harm prevented</text>
+<rect x="1020.00" y="120.00" width="820.00" height="190.00" rx="18.00" fill="#E3EDE6" stroke="#1F5135" stroke-width="3" stroke-linejoin="round"/>
+<text x="1430.00" y="229.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Uniqueness: good now</text>
+<path d="M1430.00,310.00 L1430.00,329.60" fill="none" stroke="#1A1A1A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow4)"/>
+<rect x="1020.00" y="332.00" width="820.00" height="190.00" rx="18.00" fill="#1F5135" stroke="#1F5135" stroke-width="3" stroke-linejoin="round"/>
+<text x="1430.00" y="442.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle">Link: the plan</text>
+<path d="M1430.00,522.00 L1430.00,541.60" fill="none" stroke="#1A1A1A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow5)"/>
+<rect x="1020.00" y="544.00" width="820.00" height="190.00" rx="18.00" fill="#E3EDE6" stroke="#1F5135" stroke-width="3" stroke-linejoin="round"/>
+<text x="1430.00" y="653.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Internal link: things get worse</text>
+<path d="M1430.00,734.00 L1430.00,753.60" fill="none" stroke="#1A1A1A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow6)"/>
+<rect x="1020.00" y="756.00" width="820.00" height="190.00" rx="18.00" fill="#E3EDE6" stroke="#1F5135" stroke-width="3" stroke-linejoin="round"/>
+<text x="1430.00" y="865.00" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="middle">Impact: harm caused</text>
+</svg>

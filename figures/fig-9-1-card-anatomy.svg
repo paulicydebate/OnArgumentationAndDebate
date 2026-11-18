@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1840" viewBox="0 0 1920 1840">
+<defs>
+<style type="text/css"><![CDATA[
+]]></style>
+
+</defs>
+<rect x="0.00" y="0.00" width="1920.00" height="1840.00" fill="#FFFFFF"/>
+<rect x="60.00" y="80.00" width="1080.00" height="1680.00" rx="4.00" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="120.00" y="180.00" width="620.00" height="36.00" rx="4.00" fill="#1A1A1A"/>
+<rect x="770.00" y="180.00" width="220.00" height="36.00" rx="4.00" fill="#1A1A1A"/>
+<line x1="1020.00" y1="198.00" x2="1140.00" y2="198.00" stroke="#1F5135" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="1140.00" y1="198.00" x2="1272.00" y2="198.00" stroke="#1F5135" stroke-width="2.2" stroke-linecap="round"/>
+<text x="1290.00" y="214" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="56" font-weight="700" font-style="normal" fill="#1F5135" text-anchor="start">Tag</text>
+<text x="1290.00" y="266" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="44" font-weight="400" font-style="normal" fill="#1F5135" text-anchor="start">the claim, in your words</text>
+<text x="120.00" y="359.50" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="54" font-weight="700" font-style="normal" fill="#1A1A1A" text-anchor="start">Rivera ’25</text>
+<rect x="382.44" y="328.00" width="160.00" height="24.00" rx="4.00" fill="#8A8A8A"/>
+<rect x="554.44" y="328.00" width="120.00" height="24.00" rx="4.00" fill="#8A8A8A"/>
+<rect x="686.44" y="328.00" width="80.00" height="24.00" rx="4.00" fill="#8A8A8A"/>
+<rect x="778.44" y="328.00" width="180.00" height="24.00" rx="4.00" fill="#8A8A8A"/>
+<rect x="970.44" y="328.00" width="100.00" height="24.00" rx="4.00" fill="#8A8A8A"/>
+<line x1="1080.00" y1="340.00" x2="1140.00" y2="340.00" stroke="#1F5135" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="1140.00" y1="340.00" x2="1272.00" y2="340.00" stroke="#1F5135" stroke-width="2.2" stroke-linecap="round"/>
+<text x="1290.00" y="356" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="56" font-weight="700" font-style="normal" fill="#1F5135" text-anchor="start">Citation</text>
+<text x="1290.00" y="408" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="44" font-weight="400" font-style="normal" fill="#1F5135" text-anchor="start">who, qualifications,</text>
+<text x="1290.00" y="460" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="44" font-weight="400" font-style="normal" fill="#1F5135" text-anchor="start">when, where</text>
+<rect x="120.00" y="480.00" width="200.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="334.00" y="480.00" width="80.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="428.00" y="480.00" width="150.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="592.00" y="480.00" width="70.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="676.00" y="480.00" width="190.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="880.00" y="480.00" width="100.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="120.00" y="528.00" width="130.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="264.00" y="528.00" width="190.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="468.00" y="528.00" width="80.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="562.00" y="528.00" width="160.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="736.00" y="528.00" width="120.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="114.00" y="568.00" width="430.00" height="38.00" rx="4.00" fill="#C5DCCB"/>
+<rect x="120.00" y="576.00" width="90.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="224.00" y="576.00" width="170.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="408.00" y="576.00" width="130.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="552.00" y="576.00" width="80.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="646.00" y="576.00" width="200.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="860.00" y="576.00" width="70.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="318.00" y="616.00" width="420.00" height="38.00" rx="4.00" fill="#C5DCCB"/>
+<rect x="120.00" y="624.00" width="190.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="324.00" y="624.00" width="70.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="408.00" y="624.00" width="140.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="562.00" y="624.00" width="170.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="746.00" y="624.00" width="110.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="114.00" y="664.00" width="574.00" height="38.00" rx="4.00" fill="#C5DCCB"/>
+<rect x="120.00" y="672.00" width="80.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="214.00" y="672.00" width="200.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="428.00" y="672.00" width="90.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="532.00" y="672.00" width="150.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="696.00" y="672.00" width="130.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="840.00" y="672.00" width="70.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="120.00" y="720.00" width="170.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="304.00" y="720.00" width="110.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="428.00" y="720.00" width="80.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="522.00" y="720.00" width="190.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="726.00" y="720.00" width="140.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="120.00" y="768.00" width="120.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="254.00" y="768.00" width="70.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="338.00" y="768.00" width="180.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="532.00" y="768.00" width="100.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="646.00" y="768.00" width="190.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="850.00" y="768.00" width="80.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="120.00" y="816.00" width="150.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="284.00" y="816.00" width="190.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="488.00" y="816.00" width="70.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="572.00" y="816.00" width="130.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="716.00" y="816.00" width="170.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="362.00" y="856.00" width="490.00" height="38.00" rx="4.00" fill="#C5DCCB"/>
+<rect x="120.00" y="864.00" width="80.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="214.00" y="864.00" width="140.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="368.00" y="864.00" width="190.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="572.00" y="864.00" width="100.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="686.00" y="864.00" width="160.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="860.00" y="864.00" width="70.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="114.00" y="904.00" width="470.00" height="38.00" rx="4.00" fill="#C5DCCB"/>
+<rect x="120.00" y="912.00" width="200.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="334.00" y="912.00" width="80.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="428.00" y="912.00" width="150.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="592.00" y="912.00" width="130.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="736.00" y="912.00" width="90.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="120.00" y="960.00" width="110.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="244.00" y="960.00" width="170.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="428.00" y="960.00" width="80.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="522.00" y="960.00" width="190.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="726.00" y="960.00" width="140.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="120.00" y="1008.00" width="190.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="324.00" y="1008.00" width="100.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="438.00" y="1008.00" width="80.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="532.00" y="1008.00" width="160.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="706.00" y="1008.00" width="150.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="870.00" y="1008.00" width="70.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="120.00" y="1056.00" width="70.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="204.00" y="1056.00" width="180.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="398.00" y="1056.00" width="130.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="542.00" y="1056.00" width="90.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="646.00" y="1056.00" width="200.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="120.00" y="1104.00" width="140.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="274.00" y="1104.00" width="70.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="358.00" y="1104.00" width="190.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="562.00" y="1104.00" width="110.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="686.00" y="1104.00" width="160.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="120.00" y="1152.00" width="90.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="224.00" y="1152.00" width="150.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="388.00" y="1152.00" width="80.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="482.00" y="1152.00" width="170.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="666.00" y="1152.00" width="130.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="810.00" y="1152.00" width="100.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="120.00" y="1200.00" width="180.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="314.00" y="1200.00" width="70.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="398.00" y="1200.00" width="140.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="552.00" y="1200.00" width="190.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="756.00" y="1200.00" width="90.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="120.00" y="1248.00" width="110.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="244.00" y="1248.00" width="200.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="458.00" y="1248.00" width="80.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="552.00" y="1248.00" width="150.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="716.00" y="1248.00" width="130.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="120.00" y="1296.00" width="170.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="304.00" y="1296.00" width="90.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="408.00" y="1296.00" width="140.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="562.00" y="1296.00" width="80.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<rect x="656.00" y="1296.00" width="190.00" height="22.00" rx="4.00" fill="#A3A3A3"/>
+<line x1="1080.00" y1="755.00" x2="1140.00" y2="755.00" stroke="#1F5135" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="1140.00" y1="755.00" x2="1272.00" y2="755.00" stroke="#1F5135" stroke-width="2.2" stroke-linecap="round"/>
+<text x="1290.00" y="771" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="56" font-weight="700" font-style="normal" fill="#1F5135" text-anchor="start">Text</text>
+<text x="1290.00" y="823" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="44" font-weight="400" font-style="normal" fill="#1F5135" text-anchor="start">the full paragraph;</text>
+<text x="1290.00" y="875" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="44" font-weight="400" font-style="normal" fill="#1F5135" text-anchor="start">highlight what you</text>
+<text x="1290.00" y="927" font-family="Source Sans Pro, Source Sans 3, Carlito, Calibri, Arial, sans-serif" font-size="44" font-weight="400" font-style="normal" fill="#1F5135" text-anchor="start">read aloud</text>
+</svg>
