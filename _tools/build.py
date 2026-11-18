@@ -233,6 +233,8 @@ GLOSS_OVERRIDE = {
  ('rebuttal', 1): "A later speech in which debaters may not make new arguments, except to answer something new from the speech just before.",
  ('rehighlighting', 9): "Reading different words from an opponent's card to make the same paragraph say something else, often the opposite. A card that can be rehighlighted against you is worse than a weak card.",
  ('pit of doom', 11): "A cross-examination question where one answer clearly gives you access to an argument you are likely to make. Unlike the fork, it needs only one answer to help you.",
+ ('prima facie requirements', 6): "The elements every prima facie case needs; if any one is missing, the affirmative has not done its job. A fact case needs three: topicality, a criterion and contentions. Chapter 13 adds what changes for a value case.",
+ ('stock issues', 15): "The prima facie requirements of a policy case: significant harms, inherency, plan, solvency, advantages and topicality (SHIPSAT). An affirmative that fails any one of them has not proved the resolution should be adopted.",
  ('terminal impact', 14): "An impact that ends in harm to people, such as lost lives, poverty or loss of rights, rather than a step along the way.",
 }
 GLOSS_EXTRA_ALIAS = {'flow': ['Flowing'], 'the scale': ['Scale']}
