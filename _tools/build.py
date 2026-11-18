@@ -157,6 +157,8 @@ def convert(chnum, text):
     body = body.replace('<p>@@QUIZ@@</p>', quiz_html)
     # "Move:" line styling
     body = re.sub(r'^<p>(<strong>Move:</strong>.*?)</p>', r'<p class="move">\1</p>', body, count=1, flags=re.S)
+    # mapped blocks (lines joined by soft breaks, each starting with a bold label) become panels
+    body = re.sub(r'<p>(<strong>[^<]{1,40}:</strong>(?:(?!</p>).)*?<br />(?:(?!</p>).)*)</p>', r'<p class="panel">\1</p>', body, flags=re.S)
     # "At a glance:" label
     body = body.replace('<p><strong>At a glance:</strong></p>', '<p class="glance">At a glance</p>')
     # heading ids + collect h2/h3 for in-page nav
